@@ -25,7 +25,7 @@ To install TorghostNG, open your Kali Terminal and enter these commands
     cd TorghostNG
     sudo touch /etc/sysctl.conf
     sudo python3 install.py
-    sudo torghostng
+    sudo TorghostNG
     python3 torghostng.py -id ca
     
 # Help
