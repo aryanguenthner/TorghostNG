@@ -21,6 +21,7 @@ TorghostNG was tested on:
 # Installing TorghostNG
 To install TorghostNG, open your Kali Terminal and enter these commands    
     
+    cd /opt
     git clone https://github.com/githacktools/TorghostNG
     cd TorghostNG
     sudo touch /etc/sysctl.conf
