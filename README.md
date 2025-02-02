@@ -19,24 +19,15 @@ TorghostNG was tested on:
 * For security reason, TorghostNG is gonna disable IPv6 to prevent IPv6 leaks (it happened to me lmao).
 
 # Installing TorghostNG
-TorghostNG currently supports:
-* GNU/Linux distros that based on Arch Linux
-* GNU/Linux distros that based on Debian/Ubuntu
-* GNU/Linux distros that based on Fedora, CentOS, RHEL, openSUSE
-* [Solus OS](https://getsol.us)
-* [Void Linux](https://voidlinux.org)
-* Anh the elder guy: [Slackware](http://slackware.com)
-* (Too much package managers for one day :v)
-
-To install TorghostNG, open your Terminal and enter these commands    
+To install TorghostNG, open your Kali Terminal and enter these commands    
     
     git clone https://github.com/githacktools/TorghostNG
     cd TorghostNG
+    sudo touch /etc/sysctl.conf
     sudo python3 install.py
     sudo torghostng
+    python3 torghostng.py -id ca
     
-But with Slackware, you use `sudo python3 torghostng.py` to run TorghostNG :v
-
 # Help
     OPTIONS:
       -h, --help      Show this help message and exit
